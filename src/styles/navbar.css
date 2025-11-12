@@ -3,9 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff; /* Fondo blanco limpio */
+  background-color: #ffffff; 
   padding: 0.8rem 3rem;
-  border-bottom: 1px solid #e0e0e0; /* Línea sutil */
+  border-bottom: 1px solid #e0e0e0; 
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   position: fixed;
   width: 100%;
@@ -14,7 +14,7 @@
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Logo */
+
 .navbar-logo img {
   height: 45px;
   width: auto;
@@ -26,7 +26,6 @@
   transform: scale(1.05);
 }
 
-/* Enlaces */
 .navbar-links {
   list-style: none;
   display: flex;
@@ -48,7 +47,6 @@
   transition: color 0.3s ease;
 }
 
-/* Subrayado elegante al pasar el ratón */
 .navbar-links a::after {
   content: "";
   position: absolute;
@@ -56,7 +54,7 @@
   bottom: -4px;
   width: 0;
   height: 2px;
-  background-color: #0a66c2; /* Azul corporativo sobrio */
+  background-color: #0a66c2; 
   transition: width 0.3s ease;
 }
 
@@ -68,7 +66,7 @@
   width: 100%;
 }
 
-/* Adaptabilidad (móviles y tablets) */
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
