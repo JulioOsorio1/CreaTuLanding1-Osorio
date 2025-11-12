@@ -1,0 +1,28 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background: linear-gradient(135deg);
+  background-color: lightblue; /* Verde degradado */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.home-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
