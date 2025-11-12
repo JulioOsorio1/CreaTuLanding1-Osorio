@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  font-size: 1.8rem; /* tamaño del ícono */
+  font-size: 1.8rem; 
   color: #1a4e7a;
   text-decoration: none;
   cursor: pointer;
@@ -12,14 +12,14 @@
 
 .cart-widget:hover {
   transform: scale(1.2);
-  color: #2a9d8f; /* color de hover */
+  color: #2a9d8f; 
 }
 
 .cart-count {
   position: absolute;
   top: -8px;
   right: -8px;
-  background-color: #e76f51; /* rojo suave */
+  background-color: #e76f51; 
   color: #fff;
   border-radius: 50%;
   padding: 2px 6px;
